@@ -1,0 +1,88 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Contador #CPBR9 - Campuseiros Club</title>
+		<link rel="stylesheet" href="css/flipclock.css">
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+		<script src="js/flipclock.js"></script>
+		<style>
+			body{
+				font-family: "Roboto", Arial, sans-serif;
+				background-color: #09f;
+				margin: 0;
+				border: 0;
+				padding: 0;
+			}
+			header{
+				min-height: 4rem;
+				text-align: center;
+				background: #fff;
+			}
+			header > img{
+				width: 40%;
+			}
+			#quantoTempo{
+				background-color: #09f;
+			}
+			#quantoTempo h1{
+				text-align: center;
+				font-size: 2.3rem;
+				padding-top: 10px;
+				margin: 0;
+				color: #fff;
+			}
+			.clock{
+				margin-left: auto !important;
+				margin-right: auto !important;
+				width: 39rem !important;
+				background: #fff;
+				border-radius: 10px;
+			}
+			footer{
+				text-align: center;
+				border-top: 2px solid #fff;
+				color: #fff;
+				padding-top: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<img src="img/logoCampuseiros.png">
+			<div id="quantotempo">
+				<a href="http://www.campuseirosclub.com"><h1>Quanto tempo falta para a Campus Party?</h1></a>
+			</div>
+		</header>
+		<div class="clock" style="margin:2em;"></div>
+
+		<script type="text/javascript">
+			var clock;
+
+			$(document).ready(function() {
+
+				// Grab the current date
+				var currentDate = new Date();
+
+				// Set some date in the future. In this case, it's always Jan 1
+				var futureDate  = new Date("January 26, 2016 12:00:00");
+
+				// Calculate the difference in seconds between the future and current date
+				var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
+
+				// Instantiate a coutdown FlipClock
+				clock = $('.clock').FlipClock(diff, {
+					clockFace: 'DailyCounter',
+					language: "pt-br",
+					countdown: true
+				});
+			});
+		</script>
+		<footer>
+			Site não responsivo. Melhor visualizado em monitores com resolução mínima de 800x600p.
+		</footer>
+
+	</body>
+</html>
