@@ -4,19 +4,19 @@
 		<title>Contador #CPBR9 - Campuseiros Club</title>
 
 		<link rel="stylesheet" href="css/flipclock.css"/>
-		<link rel="stylesheet" href="css/style.css"/> 
+		<link rel="stylesheet" href="css/style.css"/>
 		<link href="//fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css"/>
 
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script src="js/flipclock.js"></script>
 	</head>
 	<body>
-		<header>
+		<?php /*<header>
 			<a href="http://www.campuseirosclub.com"><img src="img/logoCampuseiros.png"></a>
 			<div id="quantotempo">
 				<h1>Quanto tempo falta para a Campus Party?</h1>
 			</div>
-		</header>
+		</header> */ ?>
 		<div class="clock" style="margin:2em;"></div>
 
 		<script type="text/javascript">
