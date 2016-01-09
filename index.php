@@ -11,12 +11,12 @@
 		<script src="js/flipclock.js"></script>
 	</head>
 	<body>
-		<?php /*<header>
-			<a href="http://www.campuseirosclub.com"><img src="img/logoCampuseiros.png"></a>
+		<header>
+			<?php /*<a href="http://www.campuseirosclub.com"><img src="img/logoCampuseiros.png"></a> */ ?>
 			<div id="quantotempo">
 				<h1>Quanto tempo falta para a Campus Party?</h1>
 			</div>
-		</header> */ ?>
+		</header>
 		<div class="clock" style="margin:2em;"></div>
 
 		<script type="text/javascript">
