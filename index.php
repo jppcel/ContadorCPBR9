@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title>Contador #CPBR9 - Campuseiros Club</title>
+		<title>Contador #CPBR9</title>
 
 		<link rel="stylesheet" href="css/flipclock.css"/>
 		<link rel="stylesheet" href="css/style.css"/>
@@ -44,6 +44,16 @@
 		<footer>
 			Site não responsivo. Melhor visualizado em monitores com resolução mínima de 800x600p.
 		</footer>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-13289088-26', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
 
 	</body>
 </html>
