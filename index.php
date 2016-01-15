@@ -41,8 +41,23 @@
 				});
 			});
 		</script>
+		<div id="apoio">
+				<h3>Apoio*:</h3>
+				<div class="coluna1-1"><a href="http://youtube.programatech.com" target="_blank"><img src="img/logoTech.svg" /></a></div>
+		</div>
+		<div id="a">
+			<script type="text/javascript">
+				bb_bid = "1621582";
+				bb_lang = "pt-BR";
+				bb_name = "custom";
+				bb_limit = "8";
+				bb_format = "bbb";
+			</script>
+			<script type="text/javascript" src="http://static.boo-box.com/javascripts/embed.js"></script>
+		</div>
 		<footer>
-			Site não responsivo. Melhor visualizado em monitores com resolução mínima de 800x600p.
+			Site não responsivo. Melhor visualizado em monitores com resolução mínima de 800x600p.<br>
+			<small>*O apoio mencionado se refere ao projeto desse site, na qual não tem nenhuma relação com a empresa organizadora do evento, ou com o evento diretamente.</small>
 		</footer>
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
