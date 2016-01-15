@@ -36,6 +36,34 @@ header > a > img {
 	border-radius: 10px;
 }
 
+#apoio{
+	text-align: center;
+	width: 100%;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+#apoio h3{
+		text-align: center;
+		color: #fff;
+}
+#apoio img{
+	padding: 10px;
+	background: #fff;
+	border-radius: 10px;
+	width: 300px;
+}
+
+#a{
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	width: 728px;
+	height: 90px;
+}
+
 footer {
 	text-align: center;
 	border-top: 2px solid #fff;
